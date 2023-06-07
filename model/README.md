@@ -19,6 +19,11 @@ The primary objective of QSAR is to establish a relationship between the chemica
 #### DL-based QSAR models :
 -leverage the power of deep neural networks to learn complex representations directly from the molecular structures. Convolutional neural networks (CNNs) or graph convolutional networks (GCNs) can be employed to capture the hierarchical features of molecules. DL models can handle raw molecular structures and learn both local and global structural patterns, potentially leading to more accurate predictions.
 - Here, I have tried exploring:
+
+A. Simple FNN using MACCS fingerprint
+B. RNN-LSTM using mol2vec 
+- Thing will be exploring soon:
+
 1. MPNN / Message passing neural network
 2. GAN / Graph attention network
 3. GCN / Graph convolutional networks
